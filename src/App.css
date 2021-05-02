@@ -1,0 +1,436 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+/* nav component */
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 3px 0 10px;
+  margin: 10px 0;
+  border-bottom: 3px solid #00ccaa;
+}
+
+.nav-div {
+  margin: 0 40px;
+  margin-button: 10px;
+}
+.nav li {
+  display: inline;
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(3px + 2vmin);
+  padding: 10px 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  text-transform: uppercase;
+}
+.nav-avatar {
+  width: 30px;
+  position: absolute;
+  top: 8px;
+  margin: 0 0 0 8px;
+  padding: 0;
+  border-radius: 50%;
+}
+.active-link {
+  border-radius: 45px 45px 0 0;
+  background-color: #00ccaa;
+  width: 100px;
+}
+
+.active {
+  font-weight: bold;
+  color: white;
+}
+
+/* login component */
+
+.card {
+  width: 35%;
+  margin: 25px auto;
+  padding-top: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.login-welcome {
+  margin: 0;
+  background-color: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.login-welcome h4 {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.login-welcome p {
+  margin: 0;
+  padding: 2px 0 10px 0;
+}
+
+.logo {
+  width: 45%;
+  marign: 20px;
+}
+
+.login-card h2 {
+  color: #00ccaa;
+}
+
+.login-card select,
+.question-input {
+  width: 90%;
+  padding: 9px 12px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-card button,
+.submit-btn {
+  display: block;
+  width: 90%;
+  margin: 10px auto 20px;
+  border: none;
+  border-radius: 6px;
+  height: 2.2rem;
+  text-align: center;
+  background-color: #00ccaa;
+  color: white;
+  cursor: pointer;
+}
+
+.invalid {
+  width: 30%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* home component */
+
+.home-buttons {
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.home-buttons div {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.home-buttons div:hover {
+  font-weight: thin;
+  text-transform: capitalize;
+}
+
+.active-questions-btn {
+  background-color: #f7f7f7;
+  color: #00ccaa;
+}
+
+/* question component */
+.question-div {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  width: 90%;
+  margin: 15px auto;
+}
+
+.question-author {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f7f7f7;
+  text-align: left;
+  font-weight: bold;
+}
+
+.question-flex {
+  display: flex;
+}
+
+.question-avatar-div {
+  width: 30%;
+}
+
+.question-avatar {
+  width: 60%;
+  margin: 22px 0;
+  boreder-redius: 50%;
+}
+
+.separator {
+  height: 6.5em;
+  align-self: center;
+  border: 1px solid #e5e5e5;
+}
+.question-content {
+  width: 70%;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.question-content h4 {
+  padding: 5px;
+  margin: 8px 0 2px;
+}
+
+.question-content p {
+  padding: 0 5px;
+  margin: 0;
+}
+
+.question-btn {
+  width: 95%;
+  margin: 12px auto;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #00ccaa;
+  border-radius: 8px;
+  color: #00ccaa;
+}
+
+/* User-card */
+.user-card {
+  width: 35%;
+  margin: 18px auto;
+  display: flex;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 0 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.user-avatar-div {
+  width: 25%;
+}
+
+.user-avatar {
+  width: 70%;
+  margin: 25px 0;
+  boreder-redius: 50%;
+}
+
+.user-details {
+  width: 50%;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.user-details h3 {
+  margin: 16px 0 5px;
+  padding: 0 2px;
+}
+
+.user-questions {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 0 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.user-questions p {
+  padding: 5px 2px;
+  margin: 8px 0;
+}
+
+.scor-container {
+  width: 25%;
+  text-align: center;
+}
+
+.score-container-div {
+  margin: 18px 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.score-text {
+  margin: 0;
+  padding: 6px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.score-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.score {
+  padding: 20px;
+}
+.score span {
+  border-radius: 50%;
+  padding: 6px 12px;
+  background-color: #00ccaa;
+}
+
+/* new Question */
+.new-question p,
+.new-question h3 {
+  font-weight: bold;
+  text-align: left;
+  padding: 8px 20px;
+  margin: 0;
+}
+
+.new-question h5 {
+  margin: 2px;
+  padding: 0;
+}
+
+/* poll component */
+.poll-flex {
+  display: flex;
+}
+
+.poll-author {
+  font-weight: bold;
+  text-align: left;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.poll-avatar-div {
+  width: 35%;
+}
+
+.ans-poll-avatar {
+  width: 80%;
+  margin: 90px auto;
+  border-radius: 50%;
+}
+
+.poll-seperator {
+  height: 250px;
+  align-self: center;
+  border: 1px solid #e5e5e5;
+}
+
+.poll-result {
+  width: 65%;
+}
+.poll-result h2 {
+  text-align: left;
+  padding: 12px 8px;
+  margin: 0;
+}
+
+.ans-poll-option {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto 15px;
+  padding: 0;
+}
+
+.ans-poll-option-active {
+  position: relative;
+  border: 2px solid #00ccaa;
+  background-color: rgb(0, 255, 150, 0.1);
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto 15px;
+  padding: 0;
+}
+.ans-poll-option h5,
+.ans-poll-option-active h5 {
+  text-align: left;
+  margin: 0;
+  padding: 12px 10px;
+}
+
+.poll-res-percentage p {
+  margin: 8px;
+  padding: 0;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vote {
+  margin: 6px;
+  padding: 0;
+  font-size: x-small;
+}
+
+.poll-res-percentage {
+  position: relative;
+  background-color: #e5e5e5;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.your-vote {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  width: 40px;
+  padding: 8px 1px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #fcba03;
+  border-radius: 50%;
+}
+
+.un-poll-seperator {
+  height: 70px;
+  align-self: center;
+  border: 1px solid #e5e5e5;
+}
+
+.unans-poll-avatar {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+.poll-question {
+  width: 65%;
+}
+
+.poll-question h3 {
+  margin: 0;
+  padding: 15px;
+  text-align: left;
+}
+
+.radio-container {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+.radio-container label {
+  padding: 0 5px;
+}
+
+.radio-container input {
+  display: inline-block;
+}
